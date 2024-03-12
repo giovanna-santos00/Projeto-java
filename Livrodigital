@@ -1,0 +1,8 @@
+public class Livrodigital extends Livro{
+    private String formArq;
+
+    public Livrodigital(String titulo, String autor, int anoPublicacao, String formArq) {
+        super(titulo, autor, anoPublicacao);
+        this.formArq = formArq;
+    }
+}
