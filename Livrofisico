@@ -1,0 +1,7 @@
+public class Livrofisico extends Livro {
+    private int numPag;
+    public Livrofisico(String titulo, String autor, int anoPublicacao, int numPag) {
+        super(titulo, autor, anoPublicacao);
+        this.numPag = numPag;
+    }
+}
